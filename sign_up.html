@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>sign_up</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="form-wrapper">
+
+
+    <h1>注册</h1>
+    <form id="signUpForm">
+      <div class="row">
+        <label>邮箱：</label>
+        <input type="text" name="email">
+        <span class="error"></span>
+      </div>
+      <div class="row">
+        <label>密码</label>
+        <input type="password" name="password">
+        <span class="error"></span>
+
+      </div>
+      <div class="row">
+        <label>确认密码：</label>
+        <input type="password" name="password_confirmation">
+        <span class="error"></span>
+      
+      </div>
+      <div class="row">
+        <input type="submit" value="注册">
+      </div>
+  </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="./main.js"></script>
+</body>
+
+</html>
